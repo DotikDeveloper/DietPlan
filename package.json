@@ -9,7 +9,10 @@
     "js-build": "gulp js-build",
     "js-minify": "gulp js-minify"
   },
-  "repository": "http://git.mdbootstrap.com/mdb/jquery/jq-gulp.git",
+  "repository": {
+    "type": "git",
+    "url": "http://git.mdbootstrap.com/mdb/jquery/jq-gulp.git"
+  },
   "author": "MDBootstrap",
   "license": "MIT",
   "devDependencies": {
@@ -28,5 +31,6 @@
   },
   "dependencies": {
     "@babel/core": "^7.3.3"
-  }
+  },
+  "description": "One pages site test"
 }
